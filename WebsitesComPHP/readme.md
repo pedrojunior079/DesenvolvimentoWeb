@@ -7,3 +7,5 @@ Capitulo 04 - Manipulando os dados em PHP
 Capitulo 05 - Estrutura de controles em PHP
 
 Capitulo 06 - Funções e classes
+
+Capitulo 07 - Utilização de Includes 
