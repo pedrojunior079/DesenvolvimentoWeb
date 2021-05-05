@@ -8,4 +8,6 @@ Capitulo 05 - Estrutura de controles em PHP
 
 Capitulo 06 - Funções e classes
 
-Capitulo 07 - Utilização de Includes 
+Capitulo 07 - Utilização de Includes
+ 
+Capitulo 08 - PHP e formulários HTML 
