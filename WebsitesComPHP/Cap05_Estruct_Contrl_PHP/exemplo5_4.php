@@ -1,17 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>exemplo5_4</title>
+</head>
+<body>
+  
 <?php 
 
     switch($opcao)
     {
         case 's':
-          echo "Voce escolheu a opção sim";
+          echo "<h3>Voce escolheu a opção sim</h3>";
           break;
         case 'n':
-          echo " Voce escolheu a opção não";
+          echo " <h3>Voce escolheu a opção não</h3>";
           break;
         default:
-          echo " A opção digitada é invalida";
+          echo " <h3>A opção digitada é invalida</h3>";
           break;
          
 }     
 
 ?>
+
+
+
+
+
+
+
+
+</body>
+</html>
+
+
