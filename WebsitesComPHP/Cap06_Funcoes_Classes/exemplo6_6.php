@@ -1,3 +1,13 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>exemplo6_6</title>
+</head>
+<body>
+   
 <?php
 
    function cpf_errado($cpf)
@@ -13,6 +23,7 @@
        {
            $cpf1 = $aux_cpf;
            $cpf2 = substr($cpf,-2);
+           $digito = 0;
            $controle = "";
            $start = 2;
            $end = 10;
@@ -20,7 +31,7 @@
            {
                $soma = 0;
                for($j=$start; $j<=$end; $i++)
-                   $soma += sbstr($cpf1,($j-$i-1),1)*($end+1+$i-$j);
+                   $soma += substr($cpf1,($j-$i-1),1)*($end+1+$i-$j);
                if($i==2)
                   $soma += $digito * 2;
                $digito = ($soma * 10) % 11;
@@ -36,3 +47,13 @@
        return $erro;   
    }
 ?>
+
+</body>
+</html>
+
+
+
+
+
+
+

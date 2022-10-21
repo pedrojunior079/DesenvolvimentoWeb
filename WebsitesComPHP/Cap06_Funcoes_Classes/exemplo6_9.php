@@ -1,3 +1,13 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>exemplo6_9</title>
+</head>
+<body>
+   
 <?php
 
    /* Há uma caracteristica do PHP que permite definição de valores padrão. Se uma função
@@ -8,7 +18,7 @@
     */
    function teste($framework, $titulo = "Ferramenta de programação")
    {
-       echo "O $framework é uma $titulo <br>";
+       echo "<h3>O $framework é uma $titulo </h3><br>";
    }
    teste("HTML" , "Criação de Websites");
    teste("CSS" , "Criação de Estilos para Websites");
@@ -18,3 +28,15 @@
    teste("Laravel");
 
 ?>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+

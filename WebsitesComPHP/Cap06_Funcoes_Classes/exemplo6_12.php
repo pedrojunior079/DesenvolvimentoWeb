@@ -1,3 +1,13 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exemplo6_12</title>
+</head>
+<body>
+    
 <?php
 
    /* Exemplo de uma classe chamada Loja, que faz o controle dos artigos
@@ -9,7 +19,7 @@
        var $itens;
        function adiciona($codigo, $quantidade)
        {
-           if(isset(this->itens[$codigo]))
+           if(isset($this->itens[$codigo]))
               $this->itens[$codigo] += $quantidade;
            else
               $this->itens[$codigo] = $quantidade;   
@@ -29,3 +39,9 @@
    }
    $estoque = new Loja;
 ?>
+
+</body>
+</html>
+
+
+
