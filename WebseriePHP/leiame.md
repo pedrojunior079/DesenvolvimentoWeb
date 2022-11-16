@@ -26,3 +26,12 @@ Aula 06 - Funções para Arrays
 Aula 07 - Manipulação de Objetos
 
 Aula 08 - Datas e Uma Classe DateTime
+
+
+Episodio 3 - PHP Orientado a Objetos
+
+Aula 01 - Classes propriedades e objetos
+
+Aula 02 - Qualificação e encapsulamento
+
+Aula 03 - Carregamento automatico

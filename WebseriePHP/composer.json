@@ -1,0 +1,20 @@
+{
+    "name": "phpfs",
+    "description": "Full Stack PHP Developer",
+    "minimum-stability": "stable",
+    "authors": [
+       {
+          "name": "Pedro Junior",
+          "email": "parnsjr@gmail.com",
+          "role": "Programador"  
+       } 
+    ],
+    "config": {
+       "vendor-lib": "vendor"  
+    },
+    "autoload": {
+       "psr-4": {
+       "Source\\": "source/"     
+       }  
+    }
+}
