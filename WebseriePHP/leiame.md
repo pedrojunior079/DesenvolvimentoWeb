@@ -35,3 +35,11 @@ Aula 01 - Classes propriedades e objetos
 Aula 02 - Qualificação e encapsulamento
 
 Aula 03 - Carregamento automatico
+
+
+Episodio 4 - Banco de dados com PDO
+
+Aula 01 - Preparando o Ambiente
+
+Aula 02 - Erros, conexao e execucao
+
