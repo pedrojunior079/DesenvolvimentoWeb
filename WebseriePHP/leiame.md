@@ -47,3 +47,14 @@ Aula 03 - Explorando estilos de busca
 
 Aula 04 - PDOStatement e bind modes
 
+
+Episodio 5 - Segurança e Boas Práticas
+
+Aula 01 - Configurando Seu PHP
+
+Aula 02 - Controle de Sessões
+
+Aula 03 - Gestão de Senhas
+
+Aula 04 - Ataques XSS e CSRF
+
