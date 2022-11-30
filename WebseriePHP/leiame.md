@@ -43,3 +43,5 @@ Aula 01 - Preparando o Ambiente
 
 Aula 02 - Erros, conexao e execucao
 
+Aula 03 - Explorando estilos de busca
+
