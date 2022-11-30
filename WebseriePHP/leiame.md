@@ -45,3 +45,5 @@ Aula 02 - Erros, conexao e execucao
 
 Aula 03 - Explorando estilos de busca
 
+Aula 04 - PDOStatement e bind modes
+
