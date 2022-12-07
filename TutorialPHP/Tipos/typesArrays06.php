@@ -12,4 +12,5 @@
   var_dump($array["foo"]);
   var_dump($array[42]);
   var_dump(["multi"]["dimensional"]["array"]);
+  
 ?>
