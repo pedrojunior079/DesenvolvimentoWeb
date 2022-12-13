@@ -1,4 +1,5 @@
 <?php
+  //Usei echo "<pre></pre>"; para pre-formatar o texto na hora de visualizar no navegador
   // Criando um array normal
   $array = array(1, 2, 3, 4, 5);
   echo '<pre>';

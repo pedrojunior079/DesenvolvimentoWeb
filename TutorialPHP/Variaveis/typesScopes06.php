@@ -10,8 +10,10 @@ class B extends A {}
 
 $a = new A();
 $b = new B();
+echo "<pre>";
 $a->Z();
 $a->Z();
 $b->Z();
 $a->Z();
+echo "</pre>";
 ?>

@@ -1,4 +1,5 @@
 <?php
+//Usei echo "<pre></pre>"; para pre-formatar o texto na hora de visualizar no navegador
 class StaticCallable {
     public static function foo($values) {
         return array_map('self::bar', $values);

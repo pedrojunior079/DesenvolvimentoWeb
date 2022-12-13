@@ -1,4 +1,5 @@
 <?php
+  //Usei echo "<pre></pre>"; para pre-formatar o texto na hora de visualizar no navegador
   error_reporting(E_ALL);
   ini_set('display_errors', true);
   ini_set('html_errors', false);
