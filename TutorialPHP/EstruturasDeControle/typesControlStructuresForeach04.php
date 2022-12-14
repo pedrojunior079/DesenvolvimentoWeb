@@ -1,0 +1,13 @@
+<?php
+$array = [
+    [1, 2],
+    [3, 4],
+];
+
+foreach($array as list($a)){
+    // Note that there is no $b here.
+    echo "<pre>";
+    echo "$a\n";
+    echo "</pre>";
+}
+?>
