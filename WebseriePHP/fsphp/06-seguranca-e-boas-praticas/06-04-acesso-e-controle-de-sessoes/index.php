@@ -14,9 +14,15 @@ $session->set("user", 1);
 $session->regenerate();
 $session->set("stats", 255);
 
+if(!$session->has("login")){
+    echo "<p>Logar-se!</p>";
+    $user = (new \Source\Models\User())->load(1);
+    $session->set("login", $user->data());
+}
+$session->destroy();
+
 var_dump(
     $_SESSION,
-    $session->all(),
-    $session->user,
-    session_id()     
+    $session->all()
+        
 );
