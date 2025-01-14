@@ -1,23 +1,11 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\EventController;
 
-Route::get('/', function () {
 
-    $nome = "PedroJr";
-    $idade = 45;
-    $arr = [10,20,30,40,50];
-    
-    return view('welcome', 
-        [
-            'nome' => $nome, 
-            'idade' => $idade, 
-            'profissão' => 'Programador',
-            'arr' => $arr
-        ]);
-
-        $nomes = ['João', 'Maria', 'Carlos', 'Saulo' ];
-});
+Route::get('/', [EventController::class, 'index']);
+Route::get('/events/create', [EventController::class, 'create']);
 
 Route::get('/contato', function(){
     return view('contato');

@@ -13,6 +13,8 @@
 
 # Entrando no diretorio e iniciando o servidor
 - :computer: cd meu-app
-- :computer:php artisan serve
+- :computer: php artisan serve
+- :computer: php artisan make:controller EventController
+
 
 
